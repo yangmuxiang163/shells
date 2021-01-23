@@ -2,7 +2,7 @@
 shell 脚本集合
 
 求平均值：
-cat a  |awk'{sum+=$1} END {print "Average = ", sum/NR}'
+cat a  |awk '{sum+=$1} END {print "Average = ", sum/NR}'
 
 求最大值：
 cat data|awk 'BEGIN {max = 0} {if ($1+0>max+0) max=$1 fi} END {print "Max=", max}'
